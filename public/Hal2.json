@@ -1,0 +1,92 @@
+{
+  "naam": "Hal2",
+  "oppervlakte": "100",
+  "aantalApparaten": "3",
+  "aantalActies": "5",
+  "height": 150,
+  "width": 500,
+  "top": 0,
+  "left": 300,
+  "apparaten": [
+    {
+      "ID": "201",
+      "categorie": "machine",
+      "naam": "CG3",
+      "height": 70,
+      "width": 100,
+      "top": 20,
+      "left": 350,
+      "omschrijving": "luiers",
+      "laatst uitgevoerde actie": {
+        "datum": "01022020",
+        "type": "vervanging",
+        "omschrijving": "vervanging riem"
+      },
+      "volgende actie": {
+        "datum": "01032020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      }
+    },
+    {
+      "ID": "202",
+      "categorie": "machine",
+      "naam": "CG7",
+      "height": 70,
+      "width": 100,
+      "top": 20,
+      "left": 70,
+      "omschrijving": "luiers",
+      "laatst uitgevoerde actie": {
+        "datum": "01022020",
+        "type": "vervanging",
+        "omschrijving": "vervanging riem"
+      },
+      "volgende actie": {
+        "datum": "01032020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      }
+    },
+    {
+      "ID": "221",
+      "categorie": "lamp",
+      "naam": "lamphal2",
+      "height": 25,
+      "width": 25,
+      "top": 90,
+      "left": 210,
+      "omschrijving": "lamp",
+      "laatst uitgevoerde actie": {
+        "datum": "15022020",
+        "type": "vervanging",
+        "omschrijving": "vervanging"
+      },
+      "volgende actie": {
+        "datum": "15022030",
+        "type": "vervanging",
+        "omschrijving": "vervanging LED"
+      }
+    },
+    {
+      "ID": "231",
+      "height": 7,
+      "width": 180,
+      "top": 40,
+      "left": 170,
+      "categorie": "band",
+      "naam": "bandCG7",
+      "omschrijving": "band van CG7 naar CG3",
+      "laatst uitgevoerde actie": {
+        "datum": "01022020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      },
+      "volgende actie": {
+        "datum": "15032020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      }
+    }
+  ]
+}

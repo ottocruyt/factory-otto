@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+/**.Hal-name {
+  font-weight: bold;
+  font-size: 21px;
+  padding-bottom: 5px;
+  color: #042a2b;
+}*/
+
+.Hal {
+  border: 3px solid #042a2b;
+}
+
+.Hal-name button {
+  margin: 5% 2% 0%;
+}
+
+.Hal .underline {
+  text-decoration: none;
+  border: 4px solid transparent;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 10px;
+  position: relative;
+}
+
+.underline::after {
+  width: 0%;
+  height: 4px;
+  display: block;
+  background-color: black;
+  content: "";
+  position: absolute;
+  top: 34px;
+  left: 50%;
+  transition: left 0.4s cubic-bezier(0.125, 0.61, 0.355, 1),
+    width 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.underline::after {
+  width: 100%;
+  top: 34px;
+  left: 0;
+}

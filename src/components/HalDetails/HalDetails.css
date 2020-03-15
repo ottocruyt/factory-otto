@@ -1,0 +1,22 @@
+.body {
+  font-family: "Source Sans Pro";
+}
+
+.Hal {
+  border: 3px solid black;
+  margin: 2% 15%;
+}
+
+.Hal i {
+  color: #5eb1bf;
+}
+
+.Hal i:hover {
+  color: #042a2b;
+}
+
+.Hal h2 {
+  color: #ef7b45;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

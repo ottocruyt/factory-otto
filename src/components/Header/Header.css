@@ -1,0 +1,19 @@
+.jumbotron {
+  background-color: #d84727;
+  color: #d7eef4;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-bottom: 0.15em;
+  padding: 0.15em;
+  border-radius: 5px;
+}
+
+.container i {
+  font-size: 2em;
+  padding: 0.15em;
+  margin-left: 0.25em;
+  color: #d7eef4;
+}
+
+/** Kleuren via 
+https://coolors.co/042a2b-5eb1bf-d7eef4-ef7b45-d84727*/

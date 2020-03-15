@@ -1,0 +1,112 @@
+{
+  "naam": "Hal1",
+  "oppervlakte": "150",
+  "aantalApparaten": "2",
+  "aantalActies": "2",
+  "height": 350,
+  "width": 300,
+  "top": 0,
+  "left": 0,
+  "apparaten": [
+    {
+      "ID": "101",
+      "height": 60,
+      "width": 200,
+      "top": 60,
+      "left": 60,
+      "categorie": "machine",
+      "naam": "WD1",
+      "omschrijving": "dik",
+      "laatstUitgevoerdeActie": {
+        "datum": "01022020",
+        "type": "vervanging",
+        "omschrijving": "vervanging riem"
+      },
+      "volgendeActie": {
+        "datum": "01032020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      }
+    },
+    {
+      "ID": "102",
+      "height": 60,
+      "width": 200,
+      "top": 250,
+      "left": 60,
+      "categorie": "machine",
+      "naam": "WD2",
+      "omschrijving": "normaal",
+      "laatst uitgevoerde actie": {
+        "datum": "01022020",
+        "type": "vervanging",
+        "omschrijving": "vervanging riem"
+      },
+      "volgendeActie": {
+        "datum": "01032020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      }
+    },
+    {
+      "ID": "121",
+      "height": 25,
+      "width": 25,
+      "top": 170,
+      "left": 150,
+      "categorie": "lamp",
+      "naam": "lamphal1",
+      "omschrijving": "lamp",
+      "laatst uitgevoerde actie": {
+        "datum": "15022020",
+        "type": "vervanging",
+        "omschrijving": "vervanging"
+      },
+      "volgendeActie": {
+        "datum": "15022030",
+        "type": "vervanging",
+        "omschrijving": "vervanging LED"
+      }
+    },
+    {
+      "ID": "131",
+      "height": 7,
+      "width": 60,
+      "top": 70,
+      "left": 0,
+      "categorie": "band",
+      "naam": "bandWD1",
+      "omschrijving": "band van WD1 naar magazijn",
+      "laatst uitgevoerde actie": {
+        "datum": "01022020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      },
+      "volgendeActie": {
+        "datum": "15032020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      }
+    },
+    {
+      "ID": "132",
+      "height": 7,
+      "width": 60,
+      "top": 260,
+      "left": 0,
+      "categorie": "band",
+      "naam": "bandWD2",
+      "omschrijving": "band van WD2 naar magazijn",
+      "laatst uitgevoerde actie": {
+        "datum": "01022020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      },
+      "volgendeActie": {
+        "datum": "15032020",
+        "type": "nazicht",
+        "omschrijving": "nazicht"
+      }
+    }
+  ]
+}

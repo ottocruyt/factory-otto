@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400");
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  margin: 20px;
+}
+
+.help {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #ff4136;
+  }
+}
